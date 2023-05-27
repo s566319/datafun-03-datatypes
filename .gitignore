@@ -166,3 +166,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#not sure what this file is about, but I do have it
