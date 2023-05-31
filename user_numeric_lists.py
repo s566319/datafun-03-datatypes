@@ -17,9 +17,13 @@ import statistics
 from util_datafun_logger import setup_logger
 logger,logname = setup_logger(__file__)
 """
-# Record your work automatically with our datafun logger
+# TODO: import from local util_datafun_logger.py 
+
 from util_datafun_logger import setup_logger
-logger,logname = setup_logger(__file__)
+
+# TODO: Call the setup_logger function to create a logger and get the log file name
+
+logger, logname = setup_logger(__file__)
 
 # import some standard modules first - how many can you make use of?
 import math

@@ -20,12 +20,14 @@ Purpose of this section is Optional bonus.
 
 import doctest
 
-# import from local util_datafun_logger.py
+
+# TODO: import from local util_datafun_logger.py 
+
 from util_datafun_logger import setup_logger
 
-# Call the setup_logger function to create a logger and get the log file name
-logger, logname = setup_logger(__file__)
+# TODO: Call the setup_logger function to create a logger and get the log file name
 
+logger, logname = setup_logger(__file__)
 
 def compare_two_plays():
     ''' This function compares two plays by Shakespeare.'''

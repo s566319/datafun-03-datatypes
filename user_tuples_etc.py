@@ -16,9 +16,13 @@ print()
 print("Working with Tuples")
 print()
 
-# Record your work automatically with our datafun logger
+# TODO: import from local util_datafun_logger.py 
+
 from util_datafun_logger import setup_logger
-logger,logname = setup_logger(__file__)
+
+# TODO: Call the setup_logger function to create a logger and get the log file name
+
+logger, logname = setup_logger(__file__)
 
 # Tuples
 June_random_temperatures = (69, 70, 84, 85, 69)
