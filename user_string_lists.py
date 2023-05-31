@@ -93,3 +93,5 @@ unique_word_count = len(unique_words_sorted)
 print(f"Names contains {unique_word_count} unique words!")
 
 print()
+
+# ignore this, added this to show changes/ have something to commmit to show that I added log file

@@ -117,3 +117,4 @@ if __name__ == "__main__":
     logger.info("Complete the code to compare two plays.")
     show_log()
 
+# ignore this, added this to this to show changes/ have something to commit, to show log file added
