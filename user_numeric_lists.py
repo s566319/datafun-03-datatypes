@@ -256,3 +256,20 @@ print()
 #dont know how to do this
 
 print()
+
+logger.info("Explore some functions in the math module")
+logger.info(f"math.comb(5,1) = {math.comb(5,1)}")
+logger.info(f"math.perm(5,1) = {math.perm(5,1)}")
+
+
+if __name__ == "__main__":
+
+    logger.info("Explore some functions in the math module")
+    logger.info(f"math.comb(5,1) = {math.comb(5,1)}")
+    logger.info(f"math.perm(5,1) = {math.perm(5,1)}")
+    logger.info(f"math.comb(5,3) = {math.comb(5,3)}")
+    logger.info(f"math.perm(5,3) = {math.perm(5,3)}")
+    logger.info(f"math.pi = {math.pi}")
+    logger.info(f"math.degrees(2 * math.pi) = {math.degrees(2 * math.pi)}")
+    logger.info(f"math.radians(180)         = {math.radians(180)}")
+    logger.info("")

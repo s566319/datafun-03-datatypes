@@ -8,6 +8,7 @@ Date: May 27, 2023
 
 Purpose of this section is Optional bonus. 
 
+
 >>> len(longwordset1)
 415
 
@@ -19,6 +20,7 @@ Purpose of this section is Optional bonus.
 """
 
 import doctest
+import math
 
 
 # TODO: import from local util_datafun_logger.py 
@@ -119,4 +121,22 @@ if __name__ == "__main__":
     logger.info("Complete the code to compare two plays.")
     show_log()
 
-# ignore this, added this to this to show changes/ have something to commit, to show log file added
+# ignore this, added this to this to show changes/ 
+# have something to commit, to show log file added
+
+logger.info("Explore some functions in the math module")
+logger.info(f"math.comb(5,1) = {math.comb(5,1)}")
+logger.info(f"math.perm(5,1) = {math.perm(5,1)}")
+
+
+if __name__ == "__main__":
+
+    logger.info("Explore some functions in the math module")
+    logger.info(f"math.comb(5,1) = {math.comb(5,1)}")
+    logger.info(f"math.perm(5,1) = {math.perm(5,1)}")
+    logger.info(f"math.comb(5,3) = {math.comb(5,3)}")
+    logger.info(f"math.perm(5,3) = {math.perm(5,3)}")
+    logger.info(f"math.pi = {math.pi}")
+    logger.info(f"math.degrees(2 * math.pi) = {math.degrees(2 * math.pi)}")
+    logger.info(f"math.radians(180)         = {math.radians(180)}")
+    logger.info("")

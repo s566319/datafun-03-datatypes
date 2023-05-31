@@ -12,6 +12,7 @@ Purpose of this section is to work with string lists.
 
 # imports first
 import random
+import math
 
 # TODO: import from local util_datafun_logger.py 
 
@@ -98,4 +99,22 @@ print(f"Names contains {unique_word_count} unique words!")
 
 print()
 
-# ignore this, added this to show changes/ have something to commmit to show that I added log file
+# ignore this, added this to show changes/ have 
+# something to commmit to show that I added log file
+
+logger.info("Explore some functions in the math module")
+logger.info(f"math.comb(5,1) = {math.comb(5,1)}")
+logger.info(f"math.perm(5,1) = {math.perm(5,1)}")
+
+
+if __name__ == "__main__":
+
+    logger.info("Explore some functions in the math module")
+    logger.info(f"math.comb(5,1) = {math.comb(5,1)}")
+    logger.info(f"math.perm(5,1) = {math.perm(5,1)}")
+    logger.info(f"math.comb(5,3) = {math.comb(5,3)}")
+    logger.info(f"math.perm(5,3) = {math.perm(5,3)}")
+    logger.info(f"math.pi = {math.pi}")
+    logger.info(f"math.degrees(2 * math.pi) = {math.degrees(2 * math.pi)}")
+    logger.info(f"math.radians(180)         = {math.radians(180)}")
+    logger.info("")
